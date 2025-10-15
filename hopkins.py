@@ -1,6 +1,6 @@
 import random
 
-def hopkinss(points):
+def hopkins(points):
     n=len(points)
 
     if n==0:
@@ -51,5 +51,6 @@ def hopkinss(points):
 points=[[random.randint(1,100) for _ in range(5)] for _ in range(1000)]
 
 print(hopkinss(points))
+
 
 
