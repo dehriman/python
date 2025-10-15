@@ -50,7 +50,8 @@ def hopkins(points):
 
 points=[[random.randint(1,100) for _ in range(5)] for _ in range(1000)]
 
-print(hopkinss(points))
+print(hopkins(points))
+
 
 
 
